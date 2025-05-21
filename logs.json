@@ -1,1 +1,4 @@
 []
+{"type": "login", "data": {"username": "salah"}, "time": "2025-05-21T20:56:05.214219"}
+{"type": "post_message", "data": {"username": "salah", "mode": "tour", "content": "bahrein tour 10"}, "time": "2025-05-21T20:56:29.542529"}
+{"type": "get_messages", "data": {"username": "salah", "mode": "tour"}, "time": "2025-05-21T20:56:35.488589"}

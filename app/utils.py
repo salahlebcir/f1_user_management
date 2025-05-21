@@ -7,6 +7,7 @@ Created on Wed May 21 21:32:39 2025
 """
 
 import json
+from datetime import datetime             # ← ajoutez cette ligne
 from flask import current_app, request, jsonify
 from functools import wraps
 from app.models import User
@@ -20,11 +21,11 @@ def log_event(event_type, data):
         "time": datetime.utcnow().isoformat()
     }
     try:
-        # On ouvre en append pour persistance immédiate
         with open(log_file, 'a') as f:
             f.write(json.dumps(entry) + "\n")
     except Exception as e:
         current_app.logger.error(f"Échec écriture log : {e}")
+
 
 def token_required(f):
     """Vérifie l’Authorization HTTP Basic pour protéger un endpoint."""
