@@ -1,0 +1,16 @@
+# Environnement virtuel
+venv/
+# Python
+__pycache__/
+*.pyc
+# Fichiers locaux / secrets
+instance/
+.env
+# Environnement virtuel
+venv/
+# Python
+__pycache__/
+*.pyc
+# Fichiers locaux / secrets
+instance/
+.env
