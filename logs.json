@@ -2,3 +2,9 @@
 {"type": "login", "data": {"username": "salah"}, "time": "2025-05-21T20:56:05.214219"}
 {"type": "post_message", "data": {"username": "salah", "mode": "tour", "content": "bahrein tour 10"}, "time": "2025-05-21T20:56:29.542529"}
 {"type": "get_messages", "data": {"username": "salah", "mode": "tour"}, "time": "2025-05-21T20:56:35.488589"}
+{"type": "login", "data": {"username": "salah"}, "time": "2025-05-21T21:54:39.528458"}
+{"type": "failed_login", "data": {"username": "salah"}, "time": "2025-05-21T21:59:38.042011"}
+{"type": "register", "data": {"username": "salah"}, "time": "2025-05-21T22:00:32.860456"}
+{"type": "login", "data": {"username": "salah"}, "time": "2025-05-21T22:00:38.326328"}
+{"type": "post_message", "data": {"username": "salah", "mode": "tour", "grand_prix": "Bahrain Grand Prix", "param1": "10", "param2": null, "content": "bahrein tour 10"}, "time": "2025-05-21T22:00:43.406003"}
+{"type": "get_messages", "data": {"username": "salah", "mode": "tour", "grand_prix": "Bahrain Grand Prix", "param1": "10", "param2": null}, "time": "2025-05-21T22:00:48.375209"}
